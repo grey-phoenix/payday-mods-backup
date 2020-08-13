@@ -1,0 +1,72 @@
+{
+    "silent_assassin_title" : "Grey Area Stealth",
+    "silent_assassin_desc" : "Options for Grey Area Stealth",
+    "sa_num_pagers" : "Number of Pagers",
+    "sa_num_pagers_desc" : "Number of pagers allowed across all players.
+(Host only)",
+    "sa_num_pagers_per_player" : "Pagers Per Player",
+    "sa_num_pagers_per_player_desc" : "Number of pagers a single player may answer.
+(Host only)",
+    "sa_pager_mods_enabled_title" : "Enable Pager mods",
+    "sa_pager_mods_enabled_desc" : "If not checked, settings below won't take effect.
+(Some settings may require mission restart to take effect)",
+    "sa_kill_pager_enabled_title" : "No Pager on Stealth Kill",
+    "sa_kill_pager_enabled_desc" : "If checked, no pager will sound when an unalerted guard is killed in stealth.
+(Host only)",
+    "sa_pager_bonus_enabled_title" : "Enable Pager Stealth Bonus",
+    "sa_pager_bonus_enabled_desc" : "Enable a modified stealth bonus for missions based on pagers allowed and used.  This is EXPERIMENTAL and HOST ONLY.",
+    "sa_matchmaking_title" : "Matchmaking",
+    "sa_matchmaking_desc" : "When searching Crime.net, require or avoid lobbies with GreyAreaStealth/SilentAssassin.",
+    "sa_matchmaking_both" : "any",
+    "sa_matchmaking_require" : "require",
+    "sa_matchmaking_avoid" : "avoid",
+    "sa_pager_detection_threshold_title" : "Stealth Kill Detection Threshold",
+    "sa_pager_detection_threshold_desc" : "If an enemy's detection meter exceeds this threshold, killing them won't be considered stealthy.",
+    "sa_lobby_notice_1" : "Host is running GreyAreaStealth (a Silent Assassin extension).",
+    "sa_lobby_notice_2" : "Kills on unalerted guards do not trigger pagers.",
+    "sa_lobby_notice_3" : "A maximum of $num_pagers  pagers are allowed, and each player may answer up to $num_per_player pagers.  If detection progess gets to $pager_detection_threshold_pct% a pager goes off on kill.",
+	"sa_pacifier_enabled_title" : "Enable Pacifier",
+	"sa_pacifier_enabled_desc" : "Shows a blue check mark instead of a red exclamation point for civs that are intimidated.",
+	"sa_pagers_0": "0",
+	"sa_pagers_1": "1",
+	"sa_pagers_2": "2",
+	"sa_pagers_3": "3",
+	"sa_pagers_4": "4",
+	"sa_pagers_5": "5",
+	"sa_pagers_6": "6",
+	"sa_pagers_7": "7",
+	"sa_pagers_8": "8",
+	"sa_pagers_9": "9",
+	"sa_pagers_10": "10",
+	"sa_pagers_100": "100",
+	"sa_stealth_drill_mult_title" : "Stealth Drill Time Reduction",
+	"sa_stealth_drill_mult_desc" : "How many times shorter the drill time is if stealthing. Multiplicative, so 1 has no impact. 
+(Host only)",
+	"sa_stealth_drill_max_title": "Max Stealth Drill",
+	"sa_stealth_drill_max_desc": "Longest duration a drill can have in Stealth in seconds. 
+(Host only)",
+	"sa_drill_30": "30",
+	"sa_drill_60": "60",
+	"sa_drill_120": "120",
+	"sa_drill_180": "180",
+	"sa_drill_240": "240",
+	"sa_drill_300": "300",
+	"sa_drill_2000": "2000",
+	"sa_infinite_zips_enabled_title": "Infinite Zip ties",
+	"sa_infinite_zips_enabled_desc": "Time to put aside your mass-murdering ways. 
+(Setting change takes effect after mission restart)",
+	"sa_no_dom_cop_pager_enabled_title": "Disable pager for cuffed cops",
+	"sa_no_dom_cop_pager_enabled_desc": "Cuffed cops don't spawn a pager.
+(Host only)",
+	"sa_infinite_bodybags_enabled_title": "Infinite Bodybags",
+	"sa_infinite_bodybags_enabled_desc": "For all of your murdering needs.",
+	"sa_no_stealth_fall_damage_enabled_title": "Disable Fall Damage",
+	"sa_no_stealth_fall_damage_enabled_desc": "Take no fall damage when you are stealthing. 
+(Setting change takes effect after mission restart)",
+	"sa_eager_hostages_enabled_title": "Eager Hostages",
+	"sa_eager_hostages_enabled_desc": "Move multiple hostages at once and increase follow distance. 
+(Host only) (Setting change takes effect after mission restart)",
+	"sa_no_drill_jams_enabled_title": "No Drill Jams",
+	"sa_no_drill_jams_enabled_desc": "Drills don't jam. 
+(Host only) (Setting change takes effect after mission restart)"
+}

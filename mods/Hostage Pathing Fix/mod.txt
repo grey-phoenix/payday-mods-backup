@@ -1,0 +1,10 @@
+{
+	"name" : "Hostage Pathing Fix",
+	"description" : "Escorted hostages will now move to exactly where you are",
+	"author" : "Schmuddel",
+	"contact" : "steamcommunity.com/groups/schmudmods",
+	"version" : "2",
+	"blt_version" : 2,
+	"image" : "hostage.png",
+	"hooks" : [ { "hook_id" : "lib/units/civilians/logics/civilianlogictravel", "script_path" : "hostage.lua" } ]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Suspicion Meter",
+	"description": "View the suspicion in percent",
+	"author": "Renox",
+	"contact": "Steam : https://steamcommunity.com/id/drakoon89",
+  	"version": "1.0",
+	"blt_version": 2.0,
+	"color": "0.3 0 1",
+	"image": "logo.png",
+	"hooks": [
+		{"script_path": "HUDSuspicion.lua", "hook_id": "lib/managers/hud/hudsuspicion"}
+	]
+}

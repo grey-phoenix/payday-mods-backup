@@ -1,0 +1,22 @@
+{
+	"name" : "Slides & Bolts Lock Back",
+	"description" : "Weapon slides/bolts will lock back when empty outside of the reload animation (if the empty reload animation does so)",
+	"author" : "Kolkpen",
+	"contact" : "id/qt3_14",
+	"version" : "2.00",
+	"blt_version" : 2,
+	"image" : "OMG.png",
+	"color" : "255 0 128",
+	"priority" : 70,
+	"updates" : [
+		{
+			"revision" : 2.00,
+			"identifier" : "sldlck"
+		}
+	],
+	"hooks" : [
+		{ "hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "lua/post/lock.lua" },
+		{ "hook_id" : "lib/units/weapons/newraycastweaponbase", "script_path" : "lua/post/lock.lua" },
+		{ "hook_id" : "lib/tweak_data/weapontweakdata", "script_path" : "lua/post/lock.lua" }
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "name" : "Only report enabled mods",
+    "description" : "if the mod's not on, why people need to know about it",
+    "author" : "filthy jian",
+    "contact" : "",
+    "version" : "1.0",
+    
+	"image" : "mod.png",
+	"blt_version" : 2,
+    "color": "255 64 0",
+    
+    "hooks" : [
+        { "hook_id": "lib/managers/menumanager",    "script_path": "menumanager.lua" }
+    ]
+}

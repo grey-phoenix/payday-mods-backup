@@ -1,0 +1,42 @@
+{
+	"name" : "GreyAreaStealth",
+	"description" : "Stealth gameplay adjustments for a more personalized experience",
+	"author" : "Grey (w/ credit to DrTachyon, DvD, B1313, rogerxiii, Naviaux, and transcend)",
+	"version" : "5",
+	"priority" : 14,
+	"hooks" : [
+		{ "hook_id" : "lib/units/enemies/cop/copbrain",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/tweak_data/playertweakdata",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/managers/menumanager",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/managers/jobmanager",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/managers/crimespreemanager",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/network/matchmaking/networkmatchmakingsteam",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/units/interactions/interactionext",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/managers/group_ai_states/groupaistatebase",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/units/props/timergui",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/tweak_data/upgradestweakdata",
+		  "script_path" : "GreyAreaStealth.lua" },
+		{ "hook_id" : "lib/units/enemies/cop/logics/coplogicintimidated",
+		  "script_path" : "GreyAreaStealth.lua" }
+		{ "hook_id" : "lib/units/beings/player/playerdamage",
+		  "script_path" : "GreyAreaStealth.lua"}
+	],
+	"blt_version" : 2,
+	"updates" : [
+		{
+			"identifier" : "greyareastealth",
+			"host" : {
+				"meta" : "https://github.com/grey-phoenix/payday-mods/raw/master/GreyAreaStealth/meta.json"
+			}
+		}
+	]
+}
