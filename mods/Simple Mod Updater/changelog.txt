@@ -1,0 +1,39 @@
+Revision 12:
+- fixed major issue related to hash bypass that prevented any update to succeed
+
+Revision 11:
+- remove BOM when displaying a changelog file
+
+Revision 10:
+- fixed hostname of mod.txt's simple_update_url parameter
+
+Revision 9:
+- added a forgotten check on mod id in r8
+
+Revision 8:
+- reworked how hash check is avoided
+
+Revision 7:
+- fixed major initialization issue (updates were working only for those starting game with Steam option "-skip_intro")
+
+Revision 6:
+- display full changelog in mod info screen (where mod can be enabled or disabled)
+- fixed button to enable/disable updates not always created
+- hide button "check for updates" for mod using simple updates
+
+Revision 5:
+- fixed mod options for BLT2
+
+Revision 4:
+- update notification text (auto install only) with latest patch notes
+- fixed delete of temporary download files
+
+Revision 3:
+- fixed disabled update button when using manual installation mode
+
+Revision 2:
+- fixed a bug in update id that let only the first mod to update
+- added a notification when a mod has received an update
+
+Revision 1:
+- initial release

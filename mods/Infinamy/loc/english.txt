@@ -1,0 +1,10 @@
+{
+	"infamy_up_not_enough" : "You aren't beyond Infamy $level.",
+	"infamy_up_reset_warning" : "Proceeding will set your Infamy level back to $level and will restore the cash you lost.\nThis is irreversible. You get to keep your stuff though.\nAre you sure you want to proceed?",
+
+	"infamy_up_reset_button" : "Reset to Infamy 25",
+	"infamy_up_reset_button_desc": "Sets your Infamy back to Infamy 25 and restores cash",
+
+	"infamy_up_increase_infamy_warning" : "Going beyond this point will cost $offshore offshore money and $cash spending cash. If you proceed, your reputation level will be reset to level 0. All your skills and unspent skill points will be removed.\n\nThis is irreversible. Only the spent money can be recovered by going all the way back to Infamy $level.\n\nYou get to keep all your guns, mods, masks, patterns and materials. You will also gain one level of Infamy, 5% more XP on jobs and one Infamy point that you cannot spend in the Infamy tree because there is nothing left to spend it on. Talking about uselessness.",
+	"infamy_up_increase_infamy_no_cash" : "For Infamy $level you need $offshore from your offshore account and $cash from your spending cash."
+}

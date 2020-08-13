@@ -1,0 +1,8 @@
+Revision 3:
+- changed update system to Simple Mod Updater
+
+Revision 2:
+- ignores out of bounds page names
+
+Revision 1:
+- initial release

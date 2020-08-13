@@ -1,0 +1,20 @@
+{
+	"blt_version" : 2,
+	"name" : "Rename Inventory Pages",
+	"description" : "",
+	"author" : "TdlQ",
+	"image" : "tdlq.png",
+	"color" : "0.52 1 0",
+	"contact" : "",
+	"version" : "3",
+	"simple_update_url" : "http://pd2mods.z77.fr/update/RenameInventoryPages",
+	"simple_dependencies" : {
+		"QuickKeyboardInput": "http://pd2mods.z77.fr/update/QuickKeyboardInput"
+	},
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menu/blackmarketgui",
+			"script_path" : "lua/blackmarketgui.lua"
+		}
+	]
+}

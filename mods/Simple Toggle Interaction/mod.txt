@@ -1,0 +1,13 @@
+{
+    "name" : "Simple Toggle Interact",
+    "description" : "Adds the ability to automatically toggle the interaction button, placing equipment and masking up",
+    "author" : "Hejoro and LazyOzzy"
+    "contact" : "",
+    "version" : "5",
+    "priority" : 10,
+	"blt_version" : 2,
+	"hooks" : [   
+        {"hook_id" : "lib/units/beings/player/states/playerstandard", "script_path" : "ToggleInteraction.lua"},
+		{"hook_id" : "lib/units/beings/player/states/PlayerMaskOff", "script_path" : "ToggleMask.lua"}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"blt_version" : 2,
+	"name" : "Simple Mod Updater",
+	"description" : "",
+	"author" : "TdlQ",
+	"image" : "tdlq.png",
+	"color" : "0.52 1 0",
+	"contact" : "",
+	"version" : "12",
+	"simple_update_url" : "http://pd2mods.z77.fr/update/SimpleModUpdater",
+	"hooks" : [
+		{
+			"hook_id" : "lib/entry",
+			"script_path" : "lua/entry.lua"
+		}
+	]
+}

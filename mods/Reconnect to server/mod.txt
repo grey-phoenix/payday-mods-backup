@@ -1,0 +1,19 @@
+{
+    "name" : "Reconnect To Server",
+    "description" : "A lightweight mod that adds a reconnect button to crimenet + allows to bind it",
+    "author" : "Luffy",
+    "blt_version" : 2.0,
+    "version" : "3",
+    "keybinds" : [
+        {
+            "keybind_id" : "ReconnectTSKeybind",
+            "name" : "Reconnect to server",
+            "localized" : false
+        }
+    ],
+    "hooks" : [
+        {"hook_id" : "lib/managers/menumanager", "script_path" : "FuckLostConnection.lua"},
+        {"hook_id" : "lib/managers/crimenetmanager", "script_path" : "FuckLostConnection.lua"},
+        {"hook_id" : "lib/network/matchmaking/networkmatchmakingsteam", "script_path" : "FuckLostConnection.lua"}
+    ]
+}
