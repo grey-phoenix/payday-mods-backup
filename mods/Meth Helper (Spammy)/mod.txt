@@ -1,0 +1,25 @@
+{
+    "name" : "Meth Helper",
+    "description" : "Instantly shout in chat what the right ingredient is and when the meth is done/ingredients are placed on rats d1 and cook off",
+    "author" : "Cloaker Magnet",
+    "contact" : "PM me on steam @ steamcommunity.com/profiles/76561198003292937",
+    "version" : "1.0",
+    "hooks" : [
+   
+	{
+		"hook_id" : "lib/managers/DialogManager"
+		"script_path" : "ingredients.lua"
+	}
+    ],
+	"keybinds" : [
+		{
+			"keybind_id" : "MH-GUI_keybind",
+			"name" : "Toggle Meth Helper",
+			"description" : "Turns the Meth Helper mod on and off",
+			"script_path" : "toggle.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		}
+	]
+}
